@@ -72,13 +72,13 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           features={[
             {
-              title: "Best Price Guarantee",              description: "Competitive rates with no hidden fees. Beat any competitor's price or we'll match it.",              imageSrc: "http://img.b2bpic.net/free-photo/family-with-bbay-girl-choosing-car-car-saloon_1303-27407.jpg",              imageAlt: "Best price guarantee"
+              title: "Best Price Guarantee",              description: "Competitive rates with no hidden fees. Beat any competitor's price or we'll match it.",              imageSrc: "http://img.b2bpic.net/free-photo/family-with-bbay-girl-choosing-car-car-saloon_1303-27407.jpg?_wi=1",              imageAlt: "Best price guarantee"
             },
             {
-              title: "24/7 Support",              description: "Round-the-clock customer support available by phone, email, or chat for any assistance.",              imageSrc: "http://img.b2bpic.net/free-photo/young-woman-traveling-country-side_23-2149406538.jpg",              imageAlt: "24/7 customer support"
+              title: "24/7 Support",              description: "Round-the-clock customer support available by phone, email, or chat for any assistance.",              imageSrc: "http://img.b2bpic.net/free-photo/young-woman-traveling-country-side_23-2149406538.jpg?_wi=1",              imageAlt: "24/7 customer support"
             },
             {
-              title: "Well-Maintained Fleet",              description: "Every vehicle is regularly serviced and inspected to ensure your safety and comfort.",              imageSrc: "http://img.b2bpic.net/free-photo/stylish-blonde-girl-wearing-denim-pants-dancing-outdoor-with-hands-up-near-blue-classic-auto_197531-4424.jpg",              imageAlt: "Well-maintained vehicles"
+              title: "Well-Maintained Fleet",              description: "Every vehicle is regularly serviced and inspected to ensure your safety and comfort.",              imageSrc: "http://img.b2bpic.net/free-photo/stylish-blonde-girl-wearing-denim-pants-dancing-outdoor-with-hands-up-near-blue-classic-auto_197531-4424.jpg?_wi=1",              imageAlt: "Well-maintained vehicles"
             }
           ]}
           gridVariant="three-columns-all-equal-width"
@@ -98,13 +98,13 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           products={[
             {
-              id: "sedan",              name: "Compact Sedan",              price: "$29/day",              imageSrc: "http://img.b2bpic.net/free-photo/family-with-bbay-girl-choosing-car-car-saloon_1303-27407.jpg",              imageAlt: "silver sedan compact car rental",              initialQuantity: 1
+              id: "sedan",              name: "Compact Sedan",              price: "$29/day",              imageSrc: "http://img.b2bpic.net/free-photo/family-with-bbay-girl-choosing-car-car-saloon_1303-27407.jpg?_wi=2",              imageAlt: "silver sedan compact car rental",              initialQuantity: 1
             },
             {
-              id: "suv",              name: "Luxury SUV",              price: "$59/day",              imageSrc: "http://img.b2bpic.net/free-photo/young-woman-traveling-country-side_23-2149406538.jpg",              imageAlt: "black SUV luxury vehicle rental",              initialQuantity: 1
+              id: "suv",              name: "Luxury SUV",              price: "$59/day",              imageSrc: "http://img.b2bpic.net/free-photo/young-woman-traveling-country-side_23-2149406538.jpg?_wi=2",              imageAlt: "black SUV luxury vehicle rental",              initialQuantity: 1
             },
             {
-              id: "coupe",              name: "Sports Convertible",              price: "$79/day",              imageSrc: "http://img.b2bpic.net/free-photo/stylish-blonde-girl-wearing-denim-pants-dancing-outdoor-with-hands-up-near-blue-classic-auto_197531-4424.jpg",              imageAlt: "red sports coupe convertible rental",              initialQuantity: 1
+              id: "coupe",              name: "Sports Convertible",              price: "$79/day",              imageSrc: "http://img.b2bpic.net/free-photo/stylish-blonde-girl-wearing-denim-pants-dancing-outdoor-with-hands-up-near-blue-classic-auto_197531-4424.jpg?_wi=2",              imageAlt: "red sports coupe convertible rental",              initialQuantity: 1
             },
             {
               id: "van",              name: "Passenger Van",              price: "$69/day",              imageSrc: "http://img.b2bpic.net/free-photo/young-adult-using-digital-device-while-travelling_23-2149119716.jpg",              imageAlt: "white passenger van family transport",              initialQuantity: 1
