@@ -66,10 +66,10 @@ export default function LandingPage() {
               id: "carousel-4",              imageSrc: "http://img.b2bpic.net/free-photo/stylish-blonde-girl-wearing-denim-pants-dancing-outdoor-with-hands-up-near-blue-classic-auto_197531-4424.jpg?_wi=1",              imageAlt: "stylish woman with blue classic convertible"
             },
             {
-              id: "carousel-5",              imageSrc: "http://img.b2bpic.net/free-photo/young-adult-using-digital-device-while-travelling_23-2149119716.jpg",              imageAlt: "young adult using device in rental vehicle"
+              id: "carousel-5",              imageSrc: "http://img.b2bpic.net/free-photo/young-adult-using-digital-device-while-travelling_23-2149119716.jpg?_wi=1",              imageAlt: "young adult using device in rental vehicle"
             },
             {
-              id: "carousel-6",              imageSrc: "http://img.b2bpic.net/free-photo/people-working-call-center_23-2149288192.jpg",              imageAlt: "customer service team assisting clients"
+              id: "carousel-6",              imageSrc: "http://img.b2bpic.net/free-photo/people-working-call-center_23-2149288192.jpg?_wi=1",              imageAlt: "customer service team assisting clients"
             }
           ]}
           autoPlay={true}
@@ -127,7 +127,7 @@ export default function LandingPage() {
               id: "coupe",              name: "Sports Convertible",              price: "$79/day",              imageSrc: "http://img.b2bpic.net/free-photo/stylish-blonde-girl-wearing-denim-pants-dancing-outdoor-with-hands-up-near-blue-classic-auto_197531-4424.jpg?_wi=2",              imageAlt: "red sports coupe convertible rental",              initialQuantity: 1
             },
             {
-              id: "van",              name: "Passenger Van",              price: "$69/day",              imageSrc: "http://img.b2bpic.net/free-photo/young-adult-using-digital-device-while-travelling_23-2149119716.jpg",              imageAlt: "white passenger van family transport",              initialQuantity: 1
+              id: "van",              name: "Passenger Van",              price: "$69/day",              imageSrc: "http://img.b2bpic.net/free-photo/young-adult-using-digital-device-while-travelling_23-2149119716.jpg?_wi=2",              imageAlt: "white passenger van family transport",              initialQuantity: 1
             }
           ]}
           gridVariant="four-items-2x2-equal-grid"
@@ -240,7 +240,7 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={false}
-          imageSrc="http://img.b2bpic.net/free-photo/people-working-call-center_23-2149288192.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/people-working-call-center_23-2149288192.jpg?_wi=2"
           imageAlt="customer service representative helping client"
           mediaAnimation="blur-reveal"
           mediaPosition="right"
