@@ -57,7 +57,7 @@ export default function LandingPage() {
               id: "carousel-1",              imageSrc: "http://img.b2bpic.net/free-photo/woman-man-leaning-out-from-car-near-lady-with-backpack-near-car-trunk_23-2148039098.jpg",              imageAlt: "luxury sedan car driving Orlando highway"
             },
             {
-              id: "carousel-2",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_39wUS55JyAFrwEMgYtJH8uLR3B2/tmp/image-with-panda-end-travel-bus-1773839119740-a8682cca.png",              imageAlt: "family choosing premium car at dealership"
+              id: "carousel-2",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_39wUS55JyAFrwEMgYtJH8uLR3B2/uploaded-1773839501625-t6lczimd.jpg",              imageAlt: "family choosing premium car at dealership"
             },
             {
               id: "carousel-3",              videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_39wUS55JyAFrwEMgYtJH8uLR3B2/uploaded-1772612536285-0fqgk0y3.mp4",              imageAlt: "young woman traveling with rental car"
