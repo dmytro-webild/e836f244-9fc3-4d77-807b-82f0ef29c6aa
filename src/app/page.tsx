@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
+import HeroBillboardRotatedCarousel from '@/components/sections/hero/HeroBillboardRotatedCarousel';
 import FeatureCardOne from '@/components/sections/feature/FeatureCardOne';
 import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import PricingCardTwo from '@/components/sections/pricing/PricingCardTwo';
@@ -40,7 +40,7 @@ export default function LandingPage() {
       </div>
 
       <div id="hero" data-section="hero">
-        <HeroBillboardScroll
+        <HeroBillboardRotatedCarousel
           title="Experience Premium Car Rentals in Orlando"
           description="Fast, affordable, and reliable vehicle rentals for your Florida adventure. Explore Orlando with luxury sedans, spacious SUVs, and convertibles starting at just $29/day."
           background={{ variant: "sparkles-gradient" }}
@@ -52,8 +52,28 @@ export default function LandingPage() {
             { text: "View Fleet", href: "#fleet" }
           ]}
           buttonAnimation="blur-reveal"
-          imageSrc="http://img.b2bpic.net/free-photo/woman-man-leaning-out-from-car-near-lady-with-backpack-near-car-trunk_23-2148039098.jpg"
-          imageAlt="luxury sedan car driving Orlando highway"
+          carouselItems={[
+            {
+              id: "carousel-1",              imageSrc: "http://img.b2bpic.net/free-photo/woman-man-leaning-out-from-car-near-lady-with-backpack-near-car-trunk_23-2148039098.jpg",              imageAlt: "luxury sedan car driving Orlando highway"
+            },
+            {
+              id: "carousel-2",              imageSrc: "http://img.b2bpic.net/free-photo/family-with-bbay-girl-choosing-car-car-saloon_1303-27407.jpg?_wi=1",              imageAlt: "family choosing premium car at dealership"
+            },
+            {
+              id: "carousel-3",              imageSrc: "http://img.b2bpic.net/free-photo/young-woman-traveling-country-side_23-2149406538.jpg?_wi=1",              imageAlt: "young woman traveling with rental car"
+            },
+            {
+              id: "carousel-4",              imageSrc: "http://img.b2bpic.net/free-photo/stylish-blonde-girl-wearing-denim-pants-dancing-outdoor-with-hands-up-near-blue-classic-auto_197531-4424.jpg?_wi=1",              imageAlt: "stylish woman with blue classic convertible"
+            },
+            {
+              id: "carousel-5",              imageSrc: "http://img.b2bpic.net/free-photo/young-adult-using-digital-device-while-travelling_23-2149119716.jpg",              imageAlt: "young adult using device in rental vehicle"
+            },
+            {
+              id: "carousel-6",              imageSrc: "http://img.b2bpic.net/free-photo/people-working-call-center_23-2149288192.jpg",              imageAlt: "customer service team assisting clients"
+            }
+          ]}
+          autoPlay={true}
+          autoPlayInterval={4000}
           className="w-full"
           containerClassName="max-w-7xl mx-auto px-4"
           textBoxClassName="z-10"
