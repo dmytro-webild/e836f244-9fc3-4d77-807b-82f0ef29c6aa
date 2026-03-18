@@ -245,7 +245,7 @@ export default function LandingPage() {
           mediaAnimation="blur-reveal"
           mediaPosition="right"
           inputPlaceholder="Enter your email address"
-          buttonText="Start Booking"
+          buttonText="Get Instant Quote"
           termsText="By booking, you agree to our rental terms and privacy policy."
           containerClassName="max-w-7xl mx-auto px-4"
         />
